@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surf Education & Tourist Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="logo">MHCsurf</div>
+        <div class="hero-content">
+            <h1>Experience the Thrill of Surfing</h1>
+            <p>Professional surf lessons and tourist guidance in our beautiful city</p>
+            <p><em>Join us and ride your first wave with confidence!</em></p>
+            <button class="share-btn" onclick="JoinOnWhatsApp()">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                Join on WhatsApp
+            </button>
+        </div>
+    </header>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-options">
+            <label class="service-checkbox">
+                <input type="checkbox" name="service" value="surf-lessons">
+                <span class="checkmark"></span>
+                <div class="service-info">
+                    <section id="surf-lessons">
+                        <h2>Surf Lessons</h2>
+                        <p>Whether you're a complete beginner or looking to improve your skills, our surf lessons are designed for all levels. Our experienced and friendly instructors will guide you through everything — from basic techniques and ocean safety to catching your first wave. Each session is fun, safe, and personalized to your pace.</p>
+                        <ul>
+                          <li>✅ Small group and private lessons</li>
+                          <li>✅ All equipment included (board & wetsuit)</li>
+                          <li>✅ Lessons for kids, teens, and adults</li>
+                          <li>✅ Learn at some of the best local surf spots</li>
+                        </ul> 
+                      </section>
+                </div>
+            </label>
+
+            <label class="service-checkbox">
+                <input type="checkbox" name="service" value="tourist-guide">
+                <span class="checkmark"></span>
+                <div class="service-info">
+                    <h3>Tourist Guide</h3>
+                    <p>Explore the best spots in our city</p>
+                </div>
+            </label>
+
+            <label class="service-checkbox">
+                <input type="checkbox" name="service" value="equipment-rental">
+                <span class="checkmark"></span>
+                <div class="service-info">
+                    <h3>Equipment Rental</h3>
+                    <p>Quality surf gear for your adventure</p>
+                </div>
+            </label>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
