@@ -189,3 +189,84 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+
+
+.service-info p {
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 1rem; /* Add spacing below paragraph */
+}
+
+.service-info ul {
+  margin-top: 0.5rem; /* Optional: add top margin too */
+  padding-left: 1.2rem;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+
+
+
+
+
+
+
+/* === HIDE CHECKBOXES AND CHECKMARKS === */
+.service-checkbox input,
+.checkmark {
+    display: none;
+}
+
+/* === MAKE EACH SERVICE LOOK LIKE A CARD === */
+.service-checkbox {
+    cursor: default;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.service-checkbox:hover {
+    transform: translateY(-5px);
+}
+
+/* === SERVICE CARD IMAGE === */
+.service-info img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* === SERVICE HEADINGS AND TEXT === */
+.service-info h2 {
+    font-size: 1.5rem;
+    color: #0077aa;
+}
+
+.service-info p {
+    color: #444;
+    line-height: 1.5;
+}
+
+.service-info ul {
+    padding-left: 1.2rem;
+    color: #333;
+    font-size: 0.95rem;
+}
+
+.service-info ul li {
+    margin-bottom: 0.5rem;
+}
+
+
+/* page */
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
