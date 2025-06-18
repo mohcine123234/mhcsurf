@@ -13,22 +13,31 @@
             <h1>Experience the Thrill of Surfing</h1>
             <p>Professional surf lessons and tourist guidance in our beautiful city</p>
             <p><em>Join us and ride your first wave with confidence!</em></p>
+            <p><em>Explore the best spots in our city</em></p>
             <button class="share-btn" onclick="JoinOnWhatsApp()">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
                 Join on WhatsApp
             </button>
+
+            <script>
+                function JoinOnWhatsApp() {
+                window.open("https://wa.me/212645084066", "_blank");
+}
+</script>
         </div>
     </header>
 
     <section class="services">
         <h2>Our Services</h2>
         <div class="service-options">
-            <label class="service-checkbox">
+            <a href="surfpage1-lessons.html" class="card-link">
+            <div class="service-checkbox">
                 <input type="checkbox" name="service" value="surf-lessons">
                 <span class="checkmark"></span>
                 <div class="service-info">
                     <section id="surf-lessons">
                         <h2>Surf Lessons</h2>
+                        <img src="https://surfstyle-morocco.com/wp-content/uploads/2024/07/IMG_8133-636x426.webp" alt="Surf instructor teaching on the beach" style="width:100%; max-width:600px; border-radius:10px;">
                         <p>Whether you're a complete beginner or looking to improve your skills, our surf lessons are designed for all levels. Our experienced and friendly instructors will guide you through everything — from basic techniques and ocean safety to catching your first wave. Each session is fun, safe, and personalized to your pace.</p>
                         <ul>
                           <li>✅ Small group and private lessons</li>
@@ -38,27 +47,72 @@
                         </ul> 
                       </section>
                 </div>
-            </label>
+            </div>
+            </a>
 
-            <label class="service-checkbox">
+            <div class="service-checkbox">
+                <a href="surfpage2-lessons.html" class="card-link">
                 <input type="checkbox" name="service" value="tourist-guide">
                 <span class="checkmark"></span>
                 <div class="service-info">
-                    <h3>Tourist Guide</h3>
-                    <p>Explore the best spots in our city</p>
+                    <section id="tourist-guide">
+                        <h2>Tourist Guide</h2>
+                        <img src="https://epic.travel/wp-content/uploads/2019/04/Taghzout.jpg" alt="Tour guide with group at a scenic spot" style="width:100%; max-width:600px; border-radius:10px;">
+                        <p>Discover the beauty and culture of our region with our friendly and knowledgeable tourist guides. Whether you're visiting for the first time or want a deeper understanding of the local traditions, we've got you covered.</p>
+                        <ul>
+                            <li>✅ Guided tours in multiple languages</li>
+                            <li>✅ Historical sites, markets, and hidden gems</li>
+                            <li>✅ Custom tours based on your interests</li>
+                            <li>✅ Family-friendly and group-friendly options</li>
+                        </ul>
+                      </section>
                 </div>
-            </label>
+                </a>
+            </div>
 
             <label class="service-checkbox">
-                <input type="checkbox" name="service" value="equipment-rental">
+                <a href="surfpage3-lessons.html" class="card-link">
+                <input type="checkbox" name="service" value="tourist-guide">
                 <span class="checkmark"></span>
                 <div class="service-info">
-                    <h3>Equipment Rental</h3>
-                    <p>Quality surf gear for your adventure</p>
+                    <section id="equipment-rental">
+                        <h2>Equipment Rental</h2>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJidnawqr9lV8I25N03o8iA2c7klbwRFFypw&s" alt="Tour guide with group at a scenic spot" style="width:100%; max-width:600px; border-radius:10px;">
+                        <p>Already know how to surf or want to explore on your own? We've got you covered with high-quality surf gear and accessories. Choose from a range of boards, wetsuits, and more — all ready when you are!</p>
+                        <ul>
+                            <li>✅ Surfboards (shortboards, longboards, foamies)</li>
+                            <li>✅ Wetsuits for all sizes</li>
+                            <li>✅ Bodyboards, leashes, and wax</li>
+                            <li>✅ Hourly, half-day, and full-day rental options</li>
+                        </ul>
+                      </section>
                 </div>
+                </a>
             </label>
+
+        
+
+            
+        
+        
+            
+            
+    
+
+
         </div>
+
+    
+
+
+
+        
     </section>
+
+    
+
+
+    
 
     <script src="script.js"></script>
 </body>
